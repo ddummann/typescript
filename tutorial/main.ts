@@ -1,4 +1,3 @@
-
 import { Course } from './course.js';
 
 import { dataCourses } from './dataCourses.js';

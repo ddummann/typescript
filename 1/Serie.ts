@@ -1,4 +1,4 @@
-class Serie {
+export class Serie {
 
     pos: number;
     name: string;

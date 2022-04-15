@@ -1,5 +1,4 @@
-
-import { Course } from './course.js';
+import { Course } from './course.js'; 
 
 export const dataCourses = [
   new Course("Ingeniería de Sw", "Pablo Picasso", 4),
