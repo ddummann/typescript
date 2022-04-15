@@ -1,5 +1,4 @@
-import { Course } from './course.js'; 
-
+import { Course } from './course.js';   //importar el archivo course.js que contiene la clase Course
 export const dataCourses = [
   new Course("Ingeniería de Sw", "Pablo Picasso", 4),
   new Course("Futbol 1", "Freddy Rincón", 2),

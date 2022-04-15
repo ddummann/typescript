@@ -1,4 +1,3 @@
-
 export class Course {
     name: string;
     credits: number;
