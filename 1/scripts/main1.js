@@ -1,5 +1,5 @@
 console.log('Iniciando aplicación');
-import { dataSeries } from './dataSeries'; // import the data from dataSeries.ts
+import { dataSeries } from './dataSeries.js'; // import the data from dataSeries.ts
 var seriesTbody = document.getElementById('series');
 var avgSeasonsElm = document.getElementById("avg-seasons");
 console.log('Desplegando funcion series');

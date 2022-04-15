@@ -1,6 +1,6 @@
 console.log('Iniciando aplicación');
 
-import{ dataSeries } from './dataSeries';   // import the data from dataSeries.ts
+import{ dataSeries } from './dataSeries.js';   // import the data from dataSeries.ts
 import { Serie } from './Serie.js';  //import the class Serie from Serie.js
 
 let seriesTbody: HTMLElement = document.getElementById('series')!;
