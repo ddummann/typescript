@@ -1,12 +1,12 @@
 var Serie = /** @class */ (function () {
-    function Serie(pos, name, channel, seasons, description, link, image) {
-        this.pos = pos;
-        this.name = name;
-        this.channel = channel;
-        this.seasons = seasons;
-        this.description = description;
-        this.link = link;
-        this.image = image;
+    function Serie(posID, nameID, channelID, seasonsID, descriptionID, linkID, imageID) {
+        this.pos = posID;
+        this.name = nameID;
+        this.channel = channelID;
+        this.seasons = seasonsID;
+        this.description = descriptionID;
+        this.link = linkID;
+        this.image = imageID;
     }
     return Serie;
 }());

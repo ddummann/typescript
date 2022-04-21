@@ -25,23 +25,31 @@
             </div>
         </div>
         <div class="row">
-            <table class="table table-striped" style="width:auto">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Name</th>
-                        <th>Channel</th>
-                        <th>Seasons</th>
-                    </tr>
-                </thead>
-                <tbody id="series">
-                </tbody>
-            </table>
+            <div class="col">
+                <table class="table table-striped" style="width:auto">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series">
+                        
+                    </tbody>
+                    
+                </table>
+                <div class="avg-seasons">
+                    <h3>Seasons average: <span id="avg-seasons"></span></h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" id="card-series">
+                </div>
+            </div>
             
-        </div>
-        <div class="avg-seasons">
-            <h3>Average Seasons: <span id="avg-seasons"></span></h3>
-        </div>
+       
     </div>
     <script type="module" src="./scripts/main1.js"></script>
     <script type="module" src="./scripts/dataSeries.js" ></script>
