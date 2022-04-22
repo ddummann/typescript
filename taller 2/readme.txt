@@ -1,4 +1,4 @@
-Enlace repositorio Taller 1 TypeScript: 
+Enlace repositorio Taller 2 TypeScript: 
 https://github.com/ddummann/typescript
 
 	Ernesto José Duarte Mantilla
